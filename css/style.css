@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+.banner {
+  width: 100%;
+  height: 768px;
+  background-image: url(../img/BG\ Header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .banner .container .menu {
+    width: 100%;
+    max-width: 680px;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between; }
+    .banner .container .menu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px; }
+  .banner .container .hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.Servicios {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .Servicios h2 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center; }
+  .Servicios .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px; }
+    .Servicios .container .servicio {
+      text-align: center;
+      width: 100%;
+      max-width: 200px;
+      color: #fff; }
+      .Servicios .container .servicio img {
+        margin-bottom: 1.5rem; }
+      .Servicios .container .servicio h3 {
+        font-size: 24px;
+        margin-bottom: 0.80rem;
+        font-weight: 600; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto; }
+
+body, html {
+  background-color: #232323;
+  font-family: "Montserrat", sans-serif;
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */

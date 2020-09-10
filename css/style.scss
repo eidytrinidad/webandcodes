@@ -1,0 +1,21 @@
+@import "fontColors.scss";
+@import 'Banner.scss';
+@import 'Servicios.scss';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+body,html{
+    background-color: $BGcolor;
+    font-family: $Fuente;
+    height: 100%;
+}

@@ -1,0 +1,36 @@
+.banner{
+    width: 100%;
+    height: 768px;
+    background-image: url(../img/BG\ Header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .container{
+        .menu{
+            width: 100%;
+            max-width: 680px;
+            margin: auto;
+            padding-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            a{
+                color:$Blanco;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+
+        .hero{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            .logo{
+                
+            }
+        }
+    }
+}

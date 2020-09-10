@@ -27,7 +27,7 @@
 .Servicios {
   width: 100%;
   padding-top: 100px;
-  padding-bottom: 100px; }
+  margin-bottom: 80px; }
   .Servicios h2 {
     font-size: 60px;
     color: #fff;
@@ -35,7 +35,7 @@
   .Servicios .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px; }
+    margin-top: 100px; }
     .Servicios .container .servicio {
       text-align: center;
       width: 100%;
@@ -47,6 +47,45 @@
         font-size: 24px;
         margin-bottom: 0.80rem;
         font-weight: 600; }
+
+.Portafolio {
+  width: 100%;
+  padding-top: 100px; }
+  .Portafolio h2 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center; }
+  .Portafolio .btnVerMas {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 275px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #77bae8;
+    color: #fff;
+    border: none; }
+  .Portafolio .container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .Portafolio .container .paginaCaja {
+      width: 100%;
+      max-width: 282px;
+      text-align: center;
+      margin-bottom: 7rem; }
+      .Portafolio .container .paginaCaja img {
+        width: 100%;
+        box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 25px; }
+      .Portafolio .container .paginaCaja h4 {
+        margin-top: 1.5rem;
+        color: #fff;
+        font-size: 22px;
+        font-weight: normal;
+        text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.7); }
 
 * {
   box-sizing: border-box;

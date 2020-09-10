@@ -1,0 +1,52 @@
+.Portafolio{
+    width: 100%;
+    padding-top: 100px;
+ 
+    h2{
+        font-size: 60px;
+        color: $Blanco;
+        text-align: center;
+    }
+
+    .btnVerMas{
+        display: block;
+        margin: auto;
+     
+        width: 100%;
+        max-width: 275px;
+        height: 60px;
+        font-size: 24px;
+        border-radius: 10px;
+        background-color: $Azul;
+        color: $Blanco;
+        border: none;
+    }
+    .container{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .paginaCaja{
+            width: 100%;
+            max-width: 282px;
+            text-align: center;
+            margin-bottom: 7rem;
+            
+
+            img{
+                width: 100%;
+                box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+                border-radius: 25px;
+            }
+
+            h4{
+                margin-top: 1.5rem;
+                color: $Blanco;
+                font-size: 22px;
+                font-weight: normal;
+                text-shadow: 5px 3px 2px rgba(0,0,0,0.7);
+            }
+        }
+    }
+}

@@ -1,7 +1,15 @@
+@mixin titulo {
+    font-size: 60px;
+    color: $Blanco;
+    text-align: center;
+}
+
+
 @import "fontColors.scss";
 @import 'Banner.scss';
 @import 'Servicios.scss';
 @import 'Portafolio.scss';
+@import 'Equipo.scss';
 
 *{
     box-sizing: border-box;
@@ -20,3 +28,6 @@ body,html{
     font-family: $Fuente;
     height: 100%;
 }
+
+
+   

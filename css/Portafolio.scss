@@ -1,12 +1,11 @@
 .Portafolio{
     width: 100%;
-    padding-top: 100px;
+    margin-top: 150px;
  
+   
     h2{
-        font-size: 60px;
-        color: $Blanco;
-        text-align: center;
-    }
+        @include titulo;
+      }
 
     .btnVerMas{
         display: block;

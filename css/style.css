@@ -98,7 +98,7 @@
     margin-top: 100px; }
     .Equipo .container .box {
       width: 100%;
-      max-width: 280px;
+      max-width: 290px;
       text-align: center; }
       .Equipo .container .box img {
         width: 100%;
@@ -115,17 +115,18 @@
         font-weight: 400; }
       .Equipo .container .box .skills {
         width: 100%;
-        margin-top: 40px; }
+        margin-top: 40px;
+        text-align: right; }
         .Equipo .container .box .skills p {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
           font-size: 13px;
           color: #fff;
           margin-bottom: 20px; }
+          .Equipo .container .box .skills p progress {
+            margin: 0 1rem; }
       .Equipo .container .box .redes {
         width: 100%;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        text-align: center; }
         .Equipo .container .box .redes a {
           text-decoration: none;
           color: #fff;
@@ -159,7 +160,7 @@
 
 footer {
   width: 100%;
-  padding-bottom: 3rem; }
+  padding-bottom: 2rem; }
   footer .container {
     display: flex;
     flex-direction: column;

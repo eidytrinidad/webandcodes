@@ -14,7 +14,7 @@
 
         .box{
             width: 100%;
-            max-width: 280px;
+            max-width: 290px;
             text-align: center;
             img{
                 width: 100%;
@@ -34,25 +34,33 @@
                 color: $Blanco;
                 font-size: 22px;
                 font-weight: 400;
+              
             }
 
             .skills{
                 width: 100%;
+               
                 margin-top: 40px;
+                text-align: right;
                 p{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                
                     font-size: 13px;
                     color: $Blanco;
                     margin-bottom: 20px;
-                    
+                   
+                    progress{
+                        margin: 0 1rem;
+                     
+                    }
                 }
+
+        
             }
+       
             .redes{
                 width: 100%;
                 margin-top: 1rem;
-                
+                text-align: center;
                 
                 a{
                     text-decoration: none;

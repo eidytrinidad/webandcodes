@@ -7,6 +7,7 @@
     background-size: cover;
 
     .container{
+
         .menu{
             width: 100%;
             max-width: 680px;
@@ -14,11 +15,18 @@
             padding-top: 35px;
             display: flex;
             justify-content: space-between;
+
+            //Links de Menu
             a{
                 color:$Blanco;
                 text-decoration: none;
                 font-size: 18px;
             }
+            a:hover{
+                color: #5bade6;
+              } 
+             
+
         }
 
         .hero{

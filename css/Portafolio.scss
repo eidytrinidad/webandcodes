@@ -1,16 +1,15 @@
-.Portafolio{
+.Portafolio {
     width: 100%;
     margin-top: 150px;
- 
-   
-    h2{
-        @include titulo;
-      }
 
-    .btnVerMas{
+
+    h2 {
+        @include titulo;
+    }
+
+    .btnVerMas {
         display: block;
         margin: auto;
-     
         width: 100%;
         max-width: 250px;
         height: 60px;
@@ -20,31 +19,89 @@
         color: $Blanco;
         border: none;
     }
-    .container{
+
+    .btnVerMas:hover {
+        background-color: #5bade6;
+        cursor: pointer;
+    }
+
+    .container {
         margin-top: 100px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
 
-        .paginaCaja{
+        .paginaCaja {
             width: 100%;
             max-width: 282px;
             text-align: center;
             margin-bottom: 7rem;
-            
 
-            img{
+            .imagen {
                 width: 100%;
-                box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+                position: relative;
+                overflow: hidden;
+
+                &:hover .overlay{
+                    top: 0;
+                    transition: all 1s;
+                 
+                }
                 border-radius: 25px;
+                
+                .overlay {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: -100%;
+                    background: rgba($color: #000000, $alpha: .7);
+                    border-radius: 25px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                   
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        width: 100%;
+                        max-width: 150px;
+                        line-height: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        border-radius: 1.5rem;
+                        background-color: #5bade6;
+                        color: $Blanco;
+                        border: none;
+
+                        cursor: pointer;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.75);
+                    border-radius: 25px;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
             }
 
-            h4{
+            // img:hover{
+            //     background-color: #000000;
+            //     opacity: 30%;
+            //     cursor: pointer;
+            //   }
+            h4 {
                 margin-top: 1.5rem;
                 color: $Blanco;
                 font-size: 22px;
                 font-weight: normal;
-               // text-shadow: 5px 3px 2px rgba(0,0,0,0.7);
+                // text-shadow: 5px 3px 2px rgba(0,0,0,0.7);
             }
         }
     }

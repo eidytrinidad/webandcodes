@@ -18,6 +18,8 @@
             font-size: 60px;
            
         }
+
+        //Boton de Contacto
         .btnContacto{
             width: 100%;
             max-width: 250px;
@@ -28,5 +30,11 @@
             border-radius: 1rem;
             
         }
+        .btnContacto:hover{
+            background-color:#5bade6;
+            color: white;
+            cursor: pointer;
+          }
+         
     }
 }

@@ -24,7 +24,9 @@
     max-width: 1000px;
     margin: auto;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 body,html{
     background-color: $BGcolor;
     font-family: $Fuente;

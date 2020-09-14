@@ -240,6 +240,9 @@ footer {
   max-width: 1000px;
   margin: auto; }
 
+html {
+  scroll-behavior: smooth; }
+
 body, html {
   background-color: #232323;
   font-family: "Montserrat", sans-serif;

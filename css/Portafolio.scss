@@ -44,7 +44,7 @@
 
                 &:hover .overlay{
                     top: 0;
-                    transition: all 1s;
+                    
                  
                 }
                 border-radius: 25px;
@@ -56,7 +56,7 @@
                     top: -100%;
                     background: rgba($color: #000000, $alpha: .7);
                     border-radius: 25px;
-
+                    transition: all 2s;
                     display: flex;
                     justify-content: center;
                     align-items: center;

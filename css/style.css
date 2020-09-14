@@ -86,8 +86,7 @@
         overflow: hidden;
         border-radius: 25px; }
         .Portafolio .container .paginaCaja .imagen:hover .overlay {
-          top: 0;
-          transition: all 1s; }
+          top: 0; }
         .Portafolio .container .paginaCaja .imagen .overlay {
           width: 100%;
           height: 100%;
@@ -95,6 +94,7 @@
           top: -100%;
           background: rgba(0, 0, 0, 0.7);
           border-radius: 25px;
+          transition: all 2s;
           display: flex;
           justify-content: center;
           align-items: center; }

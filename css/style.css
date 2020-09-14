@@ -107,10 +107,12 @@
             height: 40px;
             font-size: 16px;
             border-radius: 1.5rem;
-            background-color: #5bade6;
+            background-color: #77bae8;
             color: #fff;
             border: none;
             cursor: pointer; }
+            .Portafolio .container .paginaCaja .imagen .overlay a:hover {
+              background-color: #5bade6; }
         .Portafolio .container .paginaCaja .imagen img {
           width: 100%;
           box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.75);

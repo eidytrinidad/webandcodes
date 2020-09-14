@@ -72,11 +72,15 @@
                         height: 40px;
                         font-size: 16px;
                         border-radius: 1.5rem;
-                        background-color: #5bade6;
+                        background-color: $Azul;
                         color: $Blanco;
                         border: none;
 
                         cursor: pointer;
+
+                        &:hover{
+                            background-color: #5bade6;
+                        }
                     }
                 }
 

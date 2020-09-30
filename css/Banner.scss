@@ -6,7 +6,59 @@
     background-position: center;
     background-size: cover;
 
+    position: relative;
+
+    .menuBurger{
+        
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $BGcolor;
+        border-radius: .5rem;
+        position: absolute;
+        top:40%;
+        width:310px;
+        height: 250px;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        transform: translate(-50%,-50%);
+        padding: 1.5rem 0;
+        a{
+        //   margin-bottom: 1rem;
+            color: $Azul;
+            text-decoration: none;
+            font-weight: 700;
+            &:hover{
+                color: $Blanco;
+            }
+        }
+    }
+
     .container{
+
+        .responsiveHeader{
+            
+            display: none;
+            padding: 20px;
+            justify-content: space-between;
+          
+            .btnBurger{
+                border: none;
+                background: none;
+                i {
+                    font-size: 25px;
+                    color: $Blanco;
+                }
+            }
+
+            .logo{
+                h1{
+                    color: $Blanco;
+                }
+            }
+        }
 
         .menu{
             width: 100%;
